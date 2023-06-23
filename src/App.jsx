@@ -1,9 +1,10 @@
-import { Button, DarkThemeToggle, Flowbite } from 'flowbite-react';
-import Switcher from './components/Switcher';
+import { Button, Flowbite } from 'flowbite-react';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <Flowbite>
+      <Navigation />
       <section className="flex flex-col items-center">
         <h1 className="text-3xl text-center font-bold text-slate-900 dark:text-white mt-5">Hello world!</h1>
         <Button className="my-4">Dark Mode</Button>
@@ -18,8 +19,6 @@ function App() {
             The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
           </p>
         </div>
-        <DarkThemeToggle />
-        <Switcher />
       </section>
     </Flowbite>
   );
