@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'dark-yellow': '#f7d039'
+      },
       fontFamily: {
         poppins: "'Poppins', serif"
       }

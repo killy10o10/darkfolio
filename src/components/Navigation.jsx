@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <>
       <Navbar>
-        <Navbar.Brand href="/">Quami Killy</Navbar.Brand>
+        <Navbar.Brand className="font-medium tracking-wider text-lg" href="/">Quami Killy</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <div className="md:flex gap-4 items-center ">
