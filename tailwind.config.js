@@ -9,11 +9,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        'dark-yellow': '#f7d039'
+        'dark-yellow': '#f7d039',
+        accent: {
+          1: "hsl(var(--color-accent1) / <alpha-value>)",
+          2: "hsl(var(--color-accent2) / <alpha-value>)",
+        
+        },
+        bkg: "hsl(var(--color-bkg) / <alpha-value>)",
+        content: "hsl(var(--color-content) / <alpha-value>)",
       },
       fontFamily: {
         poppins: "'Poppins', serif"
-      }
+      },
+      animation: {
+        "spin-slower": "spin 35s ease infinite",
+        "spin-slow": "spin 25s ease-in-out infinite reverse",
+      },
     },
   },
   plugins: [

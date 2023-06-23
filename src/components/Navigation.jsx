@@ -3,7 +3,7 @@ import { Navbar, DarkThemeToggle } from 'flowbite-react';
 function Navigation() {
   return (
     <>
-      <Navbar>
+      <Navbar className="sticky top-0 z-10 dark:bg-opacity-30 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-b-gray-200">
         <Navbar.Brand className="font-medium tracking-wider text-lg" href="/">Quami Killy</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

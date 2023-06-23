@@ -1,5 +1,5 @@
 import profile from '../../public/profile.png'
-import {BsGithub, BsTwitter, BsLinkedin} from 'react-icons/bs' 
+
 function Header() {
   return (
     <div className="flex items-center gap-10">
@@ -9,9 +9,6 @@ function Header() {
       <div className="flex flex-col">
         <h1 className=' font-bold text-3xl tracking-wider'>Quami Killy</h1>
         <p className=' text-gray-400 tracking-tight'>Software Engineer</p>
-          <BsGithub />
-          <BsTwitter />
-          <BsLinkedin />
       </div>
     </div>
   )
