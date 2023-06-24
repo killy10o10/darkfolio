@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         'dark-yellow': '#f7d039',
+        'light-yellow': '#ffe071',
         accent: {
           1: "hsl(var(--color-accent1) / <alpha-value>)",
           2: "hsl(var(--color-accent2) / <alpha-value>)",
