@@ -10,6 +10,7 @@ function FooterElement() {
         <Footer.Brand 
           href="/"
           name="Kingsley Okine"
+          className="hidden md:flex"
         />
         <Footer.Copyright 
           by="Quami Killy"
