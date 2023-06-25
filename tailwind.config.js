@@ -14,6 +14,7 @@ export default {
         'bkg-dark': '#0c151d',
         'bkg-trans': '#171f26',
         'bkg-ash': '#e9ebec',
+        'bkg-ash200': '#d7d7d7',
         'ash100': '#a3abb2',
         accent: {
           1: "hsl(var(--color-accent1) / <alpha-value>)",
