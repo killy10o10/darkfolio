@@ -8,7 +8,7 @@ function Header() {
         <img src={profile} alt="Quami" />
       </div>
       <div className="flex items-center md:items-start flex-col gap-2">
-        <h1 className='font-bold text-3xl tracking-wide dark:text-gray-50'>Kingsley Okine</h1>
+        <h1 className='text-3xl tracking-wide dark:text-gray-50'>Kingsley Okine</h1>
         <p className='text-gray-500 font-medium tracking-tight'>Software Engineer</p>
         <span className='text-2xl text-gray-500 dark:text-ash100 flex gap-8 md:gap-4'>
             <a href="https://www.linkedin.com/in/kingsley-okine/" target="_blank" rel="noreferrer"><BsLinkedin/></a>

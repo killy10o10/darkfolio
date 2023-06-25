@@ -6,7 +6,7 @@ function FooterElement() {
   const currentYear = date.getFullYear()
 
   return (
-   <Footer className="p-6">
+   <Footer className="p-6 bg-gray-200">
         <Footer.Brand 
           href="/"
           name="Kingsley Okine"

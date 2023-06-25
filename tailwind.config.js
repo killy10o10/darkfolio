@@ -13,6 +13,7 @@ export default {
         'light-yellow': '#ffe071',
         'bkg-dark': '#0c151d',
         'bkg-trans': '#171f26',
+        'bkg-ash': '#e9ebec',
         'ash100': '#a3abb2',
         accent: {
           1: "hsl(var(--color-accent1) / <alpha-value>)",
