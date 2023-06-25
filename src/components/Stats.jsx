@@ -5,7 +5,7 @@ function Stats() {
     <div className="flex flex-col gap-20 mt-10">
       <div className="grid grid-cols-3 md:gap-20 gap-5 text-center">
         <div>
-          <p>3</p>
+          <p>2+</p>
           <p>Years of work</p>
           <p>experience</p>
         </div>

@@ -1,6 +1,6 @@
 import { Navbar, DarkThemeToggle } from 'flowbite-react';
 
-function Navigation() {
+function NavigationElement() {
   return (
     <>
       <Navbar className="sticky p-4 top-0 z-10 dark:bg-opacity-30 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-b-gray-200">
@@ -19,4 +19,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default NavigationElement;
