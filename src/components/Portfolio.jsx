@@ -41,10 +41,15 @@ function Portfolio() {
     }
   ];
 
-const projectsElement = projects.map((project) => {
+  
+  const projectsElement = projects.map((project) => {
+  const cardStyle = {
+    height: '226px',
+    background: `url(${project.image})center center / cover`,
+    borderRadius: "15px",
+  }
   return(
-          <div key={nanoid()}>
-              <img src={project.image} alt={project.name} />
+          <div style={cardStyle} className="md:w-[362px] cursor-pointer w-[330px] shadow" key={nanoid()}>
           </div>
   )
 })
