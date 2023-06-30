@@ -43,20 +43,23 @@ function Portfolio() {
   const projectsElement = projects.map((project) => {
     const dynamicCardStyle = {
       height: '226px',
-      borderRadius: '15px',
       background: `url(${project.image}) center /cover`,
     };
     return (
       <div
         style={dynamicCardStyle}
-        className="md:w-[362px] w-[330px] grayscale hover:grayscale-0 transition duration-700 cursor-pointer shadow"
+        className="md:w-[362px] w-[330px] grayscale hover:grayscale-0 transition duration-700 shadow rounded-2xl"
         key={nanoid()}
-      ></div>
+      >
+        <div className="w-full h-full flex items-center justify-center text-center bg-light-yellow opacity-0 hover:opacity-90 transition-all duration-500 delay-700 rounded-2xl">
+          <p>{project.description}</p>
+        </div>
+      </div>
     );
   });
 
   return (
-    <section className="grid md:grid-cols-2 gap-10 p-5 mb-10 items-center justify-center  before:absolute before:h-2/5 before:w-1/3 before:rounded-tr-full before:rounded-bl-full before:blur-3xl before:bg-accent-2 before:animate-spin-slower before:-z-10 after:absolute after:h-2/5 after:w-2/5 after:rounded-tr-full after:rounded-bl-full after:blur-3xl after:bg-accent-1/80 after:animate-spin-slow after:-z-10">
+    <section className="grid md:grid-cols-2 gap-10 p-5 mb-10 items-center justify-center cursor-fancy  before:absolute before:h-2/5 before:w-1/3 before:rounded-tr-full before:rounded-bl-full before:blur-3xl before:bg-accent-2 before:animate-spin-slower before:-z-10 after:absolute after:h-2/5 after:w-2/5 after:rounded-tr-full after:rounded-bl-full after:blur-3xl after:bg-accent-1/80 after:animate-spin-slow after:-z-10">
       {projectsElement}
     </section>
   );
