@@ -16,27 +16,27 @@ function Portfolio() {
     {
       name: 'sample project',
       image: music610,
-      description: 'something about project',
+      description: 'This is the official website of 610Music. A record label based in California. This website uses the Spotify API, and users can stream songs of Artists on the 610Music label. It was built with Gatsby.JS',
     },
     {
       name: 'sample project',
       image: joyfulLearning,
-      description: 'something about project',
+      description: "This is a website for kids' schools. It has different pages for various sections and a responsive layout.",
     },
     {
       name: 'sample project',
       image: vanlife,
-      description: 'something about project',
+      description: "This is a rental site for renting out decked camper vans. It was built using react-router 6 and Firebase.",
     },
     {
       name: 'sample project',
       image: muviWeb,
-      description: 'something about project',
+      description: 'This project is a web app about Movies; we fetched all data from TMBD API; users can like movies, search for films, and leave a comment. All data are recorded in the involvement API and displayed in real time.',
     },
     {
       name: 'sample project',
       image: countryGecko,
-      description: 'something about project',
+      description:"This mobile web app uses live data from the rest countries' APIs and populates the homepage with a list of countries, their names, flag, population and capital city. It has a search feature where users can search for any country from the API and then get more details of the country on a new route when selected.",
     },
   ];
 
@@ -51,8 +51,8 @@ function Portfolio() {
         className="md:w-[362px] w-[330px] grayscale hover:grayscale-0 transition duration-700 shadow rounded-2xl"
         key={nanoid()}
       >
-        <div className="w-full h-full flex items-center justify-center text-center bg-light-yellow opacity-0 hover:opacity-90 transition-all duration-500 delay-700 rounded-2xl">
-          <p>{project.description}</p>
+        <div className="w-full h-full flex items-center p-4 justify-center text-center bg-light-yellow opacity-0 hover:opacity-90 transition-all duration-500 delay-700 rounded-2xl">
+          <small>{project.description}</small>
         </div>
       </div>
     );

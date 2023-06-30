@@ -10,7 +10,7 @@ function Stats() {
           <p>experience</p>
         </div>
         <div>
-          <p>50+ </p>
+          <p>50+</p>
           <p>completed</p>
           <p>projects</p>
         </div>
