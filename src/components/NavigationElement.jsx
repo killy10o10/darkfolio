@@ -10,8 +10,8 @@ function NavigationElement() {
           <div className="md:flex gap-4 items-center ">
             <DarkThemeToggle />
             <Navbar.Link href="#">About</Navbar.Link>
-            <Navbar.Link href="#">Projects</Navbar.Link>
-            <Navbar.Link href="#">Contact</Navbar.Link>
+            <Navbar.Link href="#projects">Projects</Navbar.Link>
+            <Navbar.Link href="mailto:killynelly@gmail.com" target="_blank" rel="noreferrer">Contact</Navbar.Link>
           </div>
         </Navbar.Collapse>
       </Navbar>

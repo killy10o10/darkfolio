@@ -8,9 +8,6 @@ export default {
   ],
   theme: {
     extend: {
-      cursor: {
-        'fancy': 'url("/cursor.svg"), pointer'
-      },
       colors: {
         'dark-yellow': '#f7d039',
         'light-yellow': '#ffe071',
