@@ -15,6 +15,8 @@ function Skills() {
     "sass",
     "next",
     "firebase",
+    "redux-action",
+    "graphql",
     "vscode",
     "git",
     "vite",
@@ -50,7 +52,9 @@ function Skills() {
               src={`https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${skill}.svg&w=50&h=50`}
               alt=""
             />
-            <p className="text-center">{skill}</p>
+            <p className="text-center capitalize">{skill === "html" ? "HTML" : skill === "javascript" ? "JavaScript" : skill === "css" ? "CSS" : skill === "typescript" ? "TypeScript" : skill === "nodejs" ? "NodeJS" :
+              skill === "tailwindcss" ? "tailwindCSS" : skill === "redux-action" ? "Redux" : skill === "graphql" ? "GraphQL" : skill === "vscode" ? "VS Code" : skill
+            }</p>
           </a>
         ))}
       </div>
