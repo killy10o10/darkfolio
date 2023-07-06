@@ -1,10 +1,60 @@
+import { nanoid } from "nanoid"
+
 function Skills() {
+
+  const skillsBadge = [
+    "html",
+    "javascript",
+    "css",
+    "react",
+    "typescript",
+    "vue",
+    "svelte",
+    "nodejs",
+    "tailwindcss",
+    "sass",
+    "next",
+    "firebase",
+    "vscode",
+    "git",
+    "vite",
+    "webpack",
+  ]
+
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen before:absolute before:h-2/5 before:w-1/3 before:rounded-tr-full before:rounded-bl-full before:blur-3xl before:bg-accent-2 before:animate-spin-slower before:-z-10 after:absolute after:h-2/5 after:w-2/5 after:rounded-tr-full after:rounded-bl-full after:blur-3xl after:bg-accent-1/80 after:animate-spin-slow after:-z-10">
-      <h3 className="text-center">
-        Skill goes here
-      </h3>
-   </section>
+     <div className="lg:min-h-[70vh] px-[5vw] py-[80px] flex flex-col items-center justify-center z-[4]">
+      <h1
+        className="text-center text-3xl lg:text-4xl"
+      >
+        My skills & Knowledge
+      </h1>
+      <p
+        data-scroll
+        data-scroll-direction="horizontal"
+        data-scroll-speed="1"
+        className="description text-lg text-center my-[30px]"
+      >
+        Technologies and languages that I utilize in my everyday development
+      </p>
+      <div className="grid justify-center grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px]">
+        {skillsBadge.map((skill) => (
+          <a
+            key={nanoid()}
+            href={`https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${skill}.svg&w=50&h=50`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="item flex flex-col items-center justify-around group"
+          >
+            <img
+              className="w-[60px] h-[60px] transition duration-300 group-hover:scale-110"
+              src={`https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${skill}.svg&w=50&h=50`}
+              alt=""
+            />
+            <p className="text-center">{skill}</p>
+          </a>
+        ))}
+      </div>
+    </div>
   )
 }
 
