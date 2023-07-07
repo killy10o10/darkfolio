@@ -9,7 +9,7 @@ function Skills() {
     "react",
     "typescript",
     "vue",
-    "svelte",
+    "ruby",
     "nodejs",
     "tailwindcss",
     "sass",
