@@ -10,17 +10,20 @@ function Skills() {
     "typescript",
     "vue",
     "ruby",
+    "angular",
     "nodejs",
     "tailwindcss",
     "sass",
     "next",
     "firebase",
+    "figma",
     "redux-action",
     "graphql",
-    "vscode",
+    "jest",
     "git",
     "vite",
     "webpack",
+    "vscode",
   ]
 
   return (
