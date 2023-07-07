@@ -31,9 +31,6 @@ function Skills() {
         My skills & Knowledge
       </h1>
       <p
-        data-scroll
-        data-scroll-direction="horizontal"
-        data-scroll-speed="1"
         className="description text-lg text-center my-[30px]"
       >
         Technologies and languages that I utilize in my everyday development
