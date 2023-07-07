@@ -39,14 +39,14 @@ function Skills() {
         {skillsBadge.map((skill) => (
           <a
             key={nanoid()}
-            href={`https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${skill}.svg&w=50&h=50`}
+            href={`https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/${skill}.svg`}
             target="_blank"
             rel="noopener noreferrer"
             className="item flex flex-col items-center justify-around group"
           >
             <img
               className="w-[60px] h-[60px] transition duration-300 group-hover:scale-110"
-              src={`https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${skill}.svg&w=50&h=50`}
+              src={`https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/${skill}.svg`}
               alt=""
             />
             <p className="text-center capitalize">{skill === "html" ? "HTML" : skill === "javascript" ? "JavaScript" : skill === "css" ? "CSS" : skill === "typescript" ? "TypeScript" : skill === "nodejs" ? "NodeJS" :
