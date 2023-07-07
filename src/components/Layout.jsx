@@ -1,4 +1,3 @@
-import { Flowbite } from 'flowbite-react';
 import NavigationElement from './NavigationElement';
 import Header from './Header';
 import FooterElement from './FooterElement';
@@ -8,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 
 function Layout() {
   return (
-    <Flowbite>
+    <>
       <NavigationElement />
       <main className="flex items-center  flex-col gap-4">
         <section>
@@ -21,7 +20,7 @@ function Layout() {
         </section>
       </main>
       <FooterElement />
-    </Flowbite>
+    </>
   );
 }
 

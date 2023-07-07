@@ -14,7 +14,7 @@ function Portfolio() {
         className="md:w-[362px] w-[330px] grayscale hover:grayscale-0 transition duration-700 shadow rounded-2xl"
         key={nanoid()}
       >
-        <div className="w-full h-full flex flex-col items-center text-slate-950 p-4 justify-center text-center bg-light-yellow opacity-0 hover:opacity-90 transition-all duration-500 delay-700 rounded-2xl">
+        <div className="w-full h-full flex flex-col items-center text-slate-950 p-4 justify-center text-center bg-dark-yellow dark:bg-light-yellow opacity-0 hover:opacity-90 transition-all duration-500 delay-700 rounded-2xl">
           <small>{project.description}</small>
           <div className="flex items-center mt-auto text-2xl gap-4">
             <a href={project.sourceLink} className="transition-all duration-500 ease-in-out hover:scale-150" target="_blank" rel="noreferrer"><BsGithub /></a>
