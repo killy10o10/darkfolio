@@ -5,7 +5,9 @@ import Skills from './components/Skills';
 
 function App() {
   return (
- <BrowserRouter>
+ <BrowserRouter
+    basename={import.meta.env.DEV ? '/' : '/darkfolio/'}
+ >
     <Routes>
       <Route path='/' element={<Layout />} >
         <Route index element={<Portfolio />} />
