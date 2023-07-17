@@ -30,7 +30,7 @@ export default {
       animation: {
         "spin-slower": "spin 35s ease infinite",
         "spin-slow": "spin 25s ease-in-out infinite reverse",
-        blob: "blob 15s infinite",
+        blob: "blob 30s infinite",
       },
       keyframes: {
         blob: {
@@ -41,7 +41,7 @@ export default {
             transform: "translate(30%, -50%) scale(1.1)"
           },
           "66%": {
-            transform: "translate(-20%, 20%) scale(0.9)"
+            transform: "translate(20%, -10%) scale(0.9)"
           },
           "100%": {
             transform: "translate(0%, 0%) scale(1)"

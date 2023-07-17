@@ -27,9 +27,9 @@ function Portfolio() {
 
   return (
     <section id="projects" className="grid md:grid-cols-2 gap-10 p-5 mb-10 items-center justify-center relative">
-      <div className="absolute top-1/4 left-2/4 w-80 h-80 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
-      <div className="absolute top-1/4 left-1/4 w-80 h-72 bg-sky-300 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
-      <div className="absolute top-2/4 left-1/3 w-80 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
+      <div className="absolute hidden md:block top-10 left-2/4 w-80 h-80 bg-yellow-300  mix-blend-multiply filter blur-2xl animate-spin-slower animation-delay-2000"></div>
+      <div className="absolute hidden md:block top-1/4 left-1/5 w-80 h-72 bg-purple-300  mix-blend-multiply filter blur-2xl animate-spin-slow"></div>
+      <div className="absolute hidden md:block top-2/3 left-1/3 w-80 h-72 bg-pink-300  mix-blend-multiply filter blur-2xl animate-spin-slower animation-delay-4000"></div>
       {projectsElement}
     </section>
   );
