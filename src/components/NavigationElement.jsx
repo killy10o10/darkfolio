@@ -12,12 +12,12 @@ function NavigationElement() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <div className="md:flex gap-4 items-center ">
-          <button
-          className="text-lg"
-          onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
-          >
-             {colorMode === "light" ? <HiMoon/> : <BsSunFill />}
-          </button>
+            <button
+            className="text-lg"
+            onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
+            >
+              {colorMode === "light" ? <HiMoon/> : <BsSunFill />}
+            </button>
             <Navbar.Link href="#">About</Navbar.Link>
             <Navbar.Link href="/#projects">Projects</Navbar.Link>
             <Navbar.Link href="mailto:killynelly@gmail.com" target="_blank" rel="noreferrer">Contact</Navbar.Link>
