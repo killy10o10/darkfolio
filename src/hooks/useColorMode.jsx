@@ -2,7 +2,8 @@ import { useEffect } from "react";
 import useLocalStorage from "./useLocalStorage";
 
 const useColorMode = () => {
-  const [colorMode, setColorMode] = useLocalStorage("color-theme", "light");
+  // Change the second argument of useLocalStorage to "dark" for the initial value
+  const [colorMode, setColorMode] = useLocalStorage("color-theme", "dark");
 
   useEffect(() => {
     const className = "dark";
